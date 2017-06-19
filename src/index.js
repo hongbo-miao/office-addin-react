@@ -4,5 +4,10 @@ import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import './index.css';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+const Office = window.Office;
+
+Office.initialize = () => {
+  ReactDOM.render(<App />, document.getElementById('root'));
+};
+
 registerServiceWorker();
