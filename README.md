@@ -12,7 +12,19 @@ This project is showing how you can use Office.js and React to build an Excel ad
 
     - For Excel Online, use the upload my add-in button from the add-in command dialog to upload the manifest file. 
 
-2. Run `yarn start` or `npm start` in the terminal for a dev server.
+2. Run this in the terminal for a dev server.
+
+    - Windows
+    
+        ```bash
+        set HTTPS=true&&npm start
+        ```
+    
+    -  macOS
+    
+        ```bash
+        HTTPS=true npm start
+        ```
 
 3. Open Excel and click the Add-in to load.
 
@@ -23,7 +35,6 @@ This project is showing how you can use Office.js and React to build an Excel ad
 1. Generate the React project using [Create React App](https://github.com/facebookincubator/create-react-app).
 
 2. Generate the manifest file using [YO Office](https://github.com/OfficeDev/generator-office). When you generate, choose only generating the manifest file.
-Then replace all the url in the generated manifest file from `https://localhost:3000` to `http://localhost:3000`. (Note the demo is to help you quick start, if you need use features like modal, you still need use `https`)
 
 ## Learn more 
 
