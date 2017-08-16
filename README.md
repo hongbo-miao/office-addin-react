@@ -32,9 +32,7 @@ This project is showing how you can use Office.js and React to build an Excel ad
 
 ## How to create a new project by yourself
 
-1. Generate the React project using [Create React App](https://github.com/facebookincubator/create-react-app).
-
-2. Generate the manifest file using [YO Office](https://github.com/OfficeDev/generator-office). When you generate, choose only generating the manifest file.
+Follow the step by step tutorial [here](https://hongbo-miao.gitbooks.io/excel/content/quick-start/react.html).
 
 ## Learn more 
 
