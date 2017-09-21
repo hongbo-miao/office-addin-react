@@ -36,4 +36,4 @@ Follow the step by step tutorial [here](https://hongbo-miao.gitbooks.io/excel/co
 
 ## Learn more 
 
-To learn more about JavaScript API for Office (Office.js), please check [here](https://dev.office.com/reference/add-ins/javascript-api-for-office).
+To learn more about JavaScript API for Office (Office.js), please check [here](https://github.com/Hongbo-Miao/office-addin-quick-start/blob/master/react.md).
